@@ -1,0 +1,68 @@
+.att{
+font-size: xx-large;
+font-weight: 100;
+font-style: italic;
+color: indigo;
+text-align: center;
+text-shadow: 2px 2px lightcoral;
+}
+.body{
+    background-color: rgba(150, 141, 141, 0.897);
+}
+.con{
+    font-size: 40px;
+}
+.space{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: rgba(39, 12, 12, 0.863);
+    text-shadow: 2px 2px brown;
+    text-align: center;
+}
+.bene{
+    font-size: 20px;
+}
+.text{
+    font-size: 20px;
+    text-shadow: 2px 2px cyan;
+}
+.five{
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 40%;
+    padding: 0px;
+    text-align: center;
+    background-color: darkkhaki;
+    box-shadow: 3px 3px darkorange;
+}
+.sub{
+    font-weight: bold;
+    font-size: 5px;
+}
+.office{
+    font-size: 20px;
+}
+.image{
+    width: 50%;
+    height: 50%;
+    border-radius: 30px;
+}
+@media screen and (max-width:375px) {
+.body{
+    background-color: white;
+}
+.image{
+    width: 70%;
+}
+}
+@media screen and (min-width:376px) {
+.body{
+    background-color: rgb(149, 149, 204);
+    }
+}
+@media screen and (max-width:768px) {
+.five{
+    box-shadow: 2px 2px lawngreen;
+    font-size: 10px;
+}
+}

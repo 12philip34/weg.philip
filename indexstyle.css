@@ -1,0 +1,43 @@
+.body{
+    background-color: lightsalmon;
+}
+.par{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px rgb(147, 147, 204);
+}
+.h1{
+    font-size: 100%;
+    text-shadow: 8px 5px darkslategray;
+}
+.image{
+    width:50%;
+    height: 50%;
+    box-shadow: 3px 3pxfirebrick;
+    border-radius: 30%;
+    float: right;
+}
+.input{
+    width: 40%;
+    border-width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+.show{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.table{
+    font-size: 40px;
+    font-weight: bolder;
+    border: 1px solid black;
+    padding-left: 90px;
+}
+@media screen and (max-width:375px){
+.image{
+    width:50%;
+    height: 50%;
+    float: right;
+}
+}
+    
